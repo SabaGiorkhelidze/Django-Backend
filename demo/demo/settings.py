@@ -43,6 +43,13 @@ INSTALLED_APPS = [
     'users',
 ]
 
+# ckeditor config
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+    },
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
