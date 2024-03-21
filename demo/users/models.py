@@ -5,6 +5,7 @@ from ckeditor.fields import RichTextField
 
 # Create your models here.
 class CustomUser(AbstractUser):
+    email = models.EmailField(unique=True)
     profile_picture = models.ImageField(upload_to='profile_pics', null=True, blank=True)
     description = RichTextField(null=True, blank=True)
     is_author = models.BooleanField(default=False)
