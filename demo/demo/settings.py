@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'treebeard',
     'users',
+    'content',
 ]
 
 # ckeditor config
