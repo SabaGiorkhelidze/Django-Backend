@@ -1,3 +1,4 @@
+from api.api import api
 """
 URL configuration for demo project.
 
@@ -19,4 +20,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', api.urls),
 ]
