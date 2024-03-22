@@ -43,10 +43,12 @@ INSTALLED_APPS = [
     'ckeditor',
     'treebeard',
     'adminsortable2',
+    'ninja',
 
     'users',
     'content',
     'modules',
+    'api',
    
 ]
 
