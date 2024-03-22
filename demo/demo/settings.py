@@ -39,12 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
     'ckeditor',
     'treebeard',
-    'users',
     'adminsortable2',
+
+    'users',
     'content',
     'modules',
+   
 ]
 
 # ckeditor config
